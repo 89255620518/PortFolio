@@ -1,0 +1,134 @@
+@media (max-width: 500px) {
+
+    #head_info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .head {
+        width: 100%;
+        gap: 8px;
+        padding: 7px;
+    }
+
+    .header_img {
+        width: 33%;
+    }
+
+    .head_info {
+        flex-direction: row;
+    }
+
+    .info_name {
+        font-size: 5px;
+    }
+
+    .footer_1 {
+        display: none;
+    }
+
+    .top_info {
+        width: 100%;
+    }
+
+    .top_name {
+        width: 100%;
+        margin: 20px 0 20px;
+        gap: 5px;
+    }
+
+    .top_h1 {
+        font-size: 18px;
+    }
+
+    .top_h2 {
+        font-size: 28px;
+    }
+
+    .top_content {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .top_but {
+        font-size: 10px;
+    }
+
+    .content_info {
+        width: 100%;
+        display: flex;
+        height: 100%;
+        justify-content: center;
+        flex-direction: column;
+        gap: 9px;
+        align-items: center;
+        padding: 10px 20px;
+    }
+
+    .content_h1 {
+        font-size: 12px;
+    }
+
+    .content_h2 {
+        font-size: 16px;
+    }
+
+    .content_p {
+        font-size: 10px;
+    }
+
+    .sum_h1 {
+        font-size: 8px;
+    }
+
+    .work_txt {
+        flex-direction: column;
+    }
+
+    .txt_h1 {
+        font-size: 8px;
+    }
+
+    .txt_p {
+        font-size: 5px;
+    }
+
+    .txt_img {
+        height: 136px;
+    }
+
+    .footer {
+        width: 100%;
+        height: auto;
+        position: relative;
+        z-index: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        background: linear-gradient(8deg, #969AF7 1.34%, rgba(12, 13, 50, 0) 86.66%);
+        padding: 20px 0;
+    }
+
+    .head_contact {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .head_p {
+        padding: 0;
+    }
+
+    .info_img {
+        width: 50%;
+    }
+
+    .contact_info {
+        text-align: center;
+    }
+
+}
