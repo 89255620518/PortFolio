@@ -226,7 +226,8 @@ details {
 }
 
 .work_txt {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     gap: 27px;
     text-align: center;
     background: yellow;
@@ -242,9 +243,27 @@ details {
     font-size: 12px;
 }
 
+.txt_p:hover {
+    opacity: 0.5;
+}
+
 .txt_img {
     width: 50%;
     height: 65%;
+}
+
+.txt_img:hover {
+    cursor: pointer;
+    width: 300px;
+    height: auto;
+    transition: 0.5s;
+}
+
+.site_mp {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
 }
 
 
